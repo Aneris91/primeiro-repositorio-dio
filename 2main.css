@@ -1,0 +1,74 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+    --red: #ff0000;
+    --blue: #0000ff;
+    --orange: #FFA500;
+    --yellow: #fdec00;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+body {
+    background-color: var(--bg);
+    padding: 2em;
+}
+
+.italico {
+    font-style: italic;
+    line-height: 1.3;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.list {
+    list-style: square;
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor:var(--black);
+    --btnBg:var(--black);
+    --btnFontColor:var(--white)
+}
+
+.dark-theme {
+    --bg:var(--black);
+    --fontColor:var(--green);
+    --btnBg:var(--white);
+    --btnFontColor:var(--black);
+}
+
+.btn01 {
+    position: absolute;
+    top: 28px;
+    left: 600px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    font-size: 13px;
+}
+
+.btn-colors {
+      
+}
+
+.img {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 2em;
+}
+
+.btn:focus {
+    outline-style: none;
+}
